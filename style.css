@@ -1,6 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 :root{
     font-family: "Alice", serif;
-    line-height: 100%;
+    line-height: 150%;
     color:#573A37 ;
 }
 
@@ -18,6 +23,14 @@ background-size: cover;
     margin: 48px auto;
 }
 
+section + section {
+    margin-top: 24px;
+}
+
+#about p + p {
+    margin-bottom: 12px;
+}
+
 h1{
 line-height: 140%;
 font-size: 40px;
@@ -29,9 +42,15 @@ h2{
 
 h1, h2{
     color: #291B1A;
-    text-align: center;
+    line-height: 150%;
+    margin-bottom: 4px;
 }
 
 
+  ul{
+    padding-left:24px ;
+  }
 
 
+ 
+   
