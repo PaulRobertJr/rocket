@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -10,7 +10,7 @@
 }
 
 body{
-background-image: url(assets/bg-image.jpg);
+background-image: url(assets/bg.jpg);
 background-size: cover;
 }
 
@@ -20,7 +20,7 @@ background-size: cover;
     padding: 24px;
     background-color: #F0E8C2;
     border-radius: 24px;
-    margin: 48px auto;
+    margin: 48px auto 28px ;
 }
 
 section + section {
@@ -28,7 +28,11 @@ section + section {
 }
 
 #about p + p {
-    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+main {
+    padding: 24px;
 }
 
 h1{
@@ -38,12 +42,13 @@ font-size: 40px;
 
 h2{
     font-size: 24px;
+
 }
 
 h1, h2{
     color: #291B1A;
-    line-height: 150%;
     margin-bottom: 4px;
+    line-height: 150%;
 }
 
 
@@ -51,6 +56,16 @@ h1, h2{
     padding-left:24px ;
   }
 
+  footer{
+    text-align: center;
+    color: #F0E8C2;
+    padding-bottom: 48px;
+    
+  }
+
+  footer img{
+    vertical-align: middle;
+  }
 
  
    
